@@ -42,6 +42,8 @@ const (
 	RBRACKET = "]"
 
 	COLON = ":"
+
+	MACRO = "MACRO"
 )
 
 var keywords = map[string]TokenType{
